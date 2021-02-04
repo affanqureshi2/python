@@ -2,7 +2,7 @@ import importlib
 import os
 import sys
 
-from .cv2 import *
+import *
 from .data import *
 
 # wildcard import above does not import "private" variables like __version__
